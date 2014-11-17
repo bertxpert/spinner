@@ -1,0 +1,12 @@
+body
+{
+	background-image: url("../images/tilebackground.png");
+	background-position: 0px 0px;
+	background-repeat: repeat-y repeat-x;
+	-webkit-animation: animatedBackground 40s linear infinite;
+}
+@-webkit-keyframes animatedBackground  
+{
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
